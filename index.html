@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+    ##################################################
+    This is the supa secure database for accessing megan/helen battle plans.
+
+    Styles are is the styles.css file, not in a style tag
+
+    Javascript is in script.js, not a script tag.
+
+    I will link this to firebase once we have finished basic styles here
+    ##################################################
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Megan/Helen battle plans</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+    <h1>Authorisation Required</h1>
+    <h2>You are trying to access sensitive data</h2>
+    </div>
+    <br><br>
+    <div class="card">
+      <form method="post">
+      <a href="dashboard.html">CLICK ME</a>
+      <label for="uid">User Id</label>
+      <input type="text" name="uid" id="uid" autocomplete="off">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" autocomplete="off">
+      <label for="submit">Submit</label>
+      <input type="submit" id="submit">
+      </form>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

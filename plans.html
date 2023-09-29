@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Megan/Helen battle plans</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="todoLoad()">
+    <header>
+      <nav>
+        <div class="nav-item">
+          <a href="dashboard.html">Updates Dashboard</a>
+        </div>
+        <div class="nav-item">
+          <a href="admin.html">Admin Panel</a>
+        </div>
+        <div class="nav-item">
+          <a href="contacts.html">Contact Points</a>
+        </div>
+        <div class="nav-item">
+          <a href="plans.html">Battle Plans</a>
+        </div>
+      </nav>
+    </header>
+    <div class="pusher"></div>
+    <h1>Plans</h1>
+    <br>
+    <div class="card">
+      <h2>Todo List</h2>
+      <ul id="todolist">
+      <li> 
+        <input type="checkbox" name="tasks">
+        <span class="checkmark"></span>
+        <button></button>
+        <label>${newTask.value}</label>
+      </li>
+      </ul>
+      <p>New Task</p>
+      <input type="text" name="new-task" id="new-task" autocomplete="off">
+      <br>
+      <button id="push-task" onclick="todoClick()" >Push Task</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
